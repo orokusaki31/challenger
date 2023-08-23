@@ -1,5 +1,8 @@
-*,
+
 *::before, 
 *::after {
     margin: 0;
+}
+.d-item{
+    height: 500px;
 }
