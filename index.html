@@ -1,124 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Reto</title>
-    <body>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Reto</title>
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#" >Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                lenguajes basicos
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="https://es.wikipedia.org/wiki/HTML5">html5</a></li>
-                                <li><a class="dropdown-item" href="https://www.w3schools.com/Css/">css3</a></li>
-                                <li><a class="dropdown-item" href="https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript">javascript</a></li>
+<body>
 
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="https://getbootstrap.com/">bootstrap</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-
-
-
-
-
-
-        <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active d-item">
-                    <img src="assets/img/html5.jpg" class="d-block w-100 d-img" alt="html5.jpg">
-                    <div class="carousel-caption top-0 mt-4">
-                        <p class="mt-5 fs-3 text-uppercase">
-                            descubre html5
-                        </p>
-                        <h1 class="display-1 fw-bolder text-capitalize">html5
-                        </h1>
-                    </div>
-                </div>
-                <div class="carousel-item d-item">
-                    <img src="assets/img/css3.jpg" class="d-block w-100 d-img" alt="css3.jpg">
-                    <div class="carousel-caption top-0 mt-4">
-                        <p class="mt-5 fs-3 text-uppercase">descubre css</p>
-                        <h1 class="display-1 fw-dolder text-capitalize">css</h1>
-
-                    </div>
-                </div>
-                <div class="carousel-item d-item">
-                    <img src="assets/img/js.jpg" class="d-block w-100 d-img" alt="js.jpg">
-                    <div class="carousel-caption top-0 mt-4">
-                        <p class="mt-5 fs-3 text-uppercase">descubre javascript</p>
-                        <h1 class="display-1 fw-dolder text-capitalize">javascript</h1>
-
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+    <nav class="navbar navbar-expand-lg bg-linear-gradient(90deg,#3276E2,#D3E9f9) ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/img/laptops.jpg" class="img-fluid" width="130px"
+                    height="130px" alt="laptops"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.edix.com/es/instituto/framework/">informacion sobre
+                            framework</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            lenguajes basicos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://es.wikipedia.org/wiki/HTML5">html5</a></li>
+                            <li><a class="dropdown-item" href="https://www.w3schools.com/Css/">css3</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript">javascript</a>
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="https://getbootstrap.com/">bootstrap</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <h1>conoce sobre html y algo de framewor</h1>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active d-item">
+                <img src="assets/img/html5.jpg" class="d-block w-100 d-img" alt="html5.jpg">
+                <div class="carousel-caption top-0 mt-4">
+                    <p class="mt-5 fs-3 text-uppercase">
+                        descubre html5
+                    </p>
+                    <h1 class="display-1 fw-bolder text-capitalize">html5
+                    </h1>
+                </div>
+            </div>
+            <div class="carousel-item d-item">
+                <img src="assets/img/css3.jpg" class="d-block w-100 d-img" alt="css3.jpg">
+                <div class="carousel-caption top-0 mt-4">
+                    <p class="mt-5 fs-3 text-uppercase">descubre css</p>
+                    <h1 class="display-1 fw-dolder text-capitalize">css</h1>
+
+                </div>
+            </div>
+            <div class="carousel-item d-item">
+                <img src="assets/img/js.jpg" class="d-block w-100 d-img" alt="js.jpg">
+                <div class="carousel-caption top-0 mt-4">
+                    <p class="mt-5 fs-3 text-uppercase">descubre javascript</p>
+                    <h1 class="display-1 fw-dolder text-capitalize">javascript</h1>
+
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <h2>html5</h2>
+    <p>
+        HTML 5 (HyperText Markup Language, versión 5) es la quinta revisión importante del lenguaje básico de la World
+        Wide Web, HTML. HTML5 específica dos variantes de sintaxis para HTML: una «clásica», HTML (text/html), conocida
+        como HTML5, y una variante XHTML conocida como sintaxis XHTML 5 que deberá servirse con sintaxis XML
+        (application/xhtml+xml). Esta es la primera vez que HTML y XHTML se han desarrollado en paralelo. La versión
+        definitiva de la quinta revisión del estándar se publicó en octubre de 2014.
+
+        Al no ser reconocido en viejas versiones de navegadores por sus nuevas etiquetas, se recomienda al usuario común
+        actualizar su navegador a la versión más nueva, para poder disfrutar de todo el potencial que provee HTML 5.
+    </p>
+    <h2>css</h2>
+    <p>Las hojas de estilo en cascada (CSS, cascading style sheets) permiten crear páginas web atractivas. Pero ¿cómo
+        funcionan realmente? En este artículo explicaremos qué es el CSS con un ejemplo de sintaxis sencillo y
+        describiremos algunos términos clave sobre este lenguaje.</p>
+    <h2>javascript</h2>
+    <p>JavaScript es un lenguaje de programación o de secuencias de comandos que te permite implementar funciones
+        complejas en páginas web, cada vez que una página web hace algo más que sentarse allí y mostrar información
+        estática para que la veas, muestra oportunas actualizaciones de contenido, mapas interactivos, animación de
+        Gráficos 2D/3D, desplazamiento de máquinas reproductoras de vídeo, etc., puedes apostar que probablemente
+        JavaScript está involucrado. Es la tercera capa del pastel de las tecnologías web estándar, dos de las cuales
+        (HTML y CSS) hemos cubierto con mucho más detalle en otras partes del Área de aprendizaje.</p>
+
+    <h3>framewor</h3>
+    <div class="tarjeta">
+        <div class="card-group">
+            <div class="card">
+                <img src="assets/img/code.jpg" class="card-img-top" alt="code">
+                <div class="card-body">
+                    <h5 class="card-title">python</h5>
+                    <p class="card-text">Python se ha convertido en uno de los lenguajes de programación más populares
+                        del mundo en los últimos años. Se utiliza en todo, desde el aprendizaje automático hasta la
+                        construcción de sitios web, y se utiliza por desarrolladores como no desarrolladores.
+
+                    </p>
+                    <a href="https://www.coursera.org/mx/articles/what-is-python-used-for-a-beginners-guide-to-using-python"
+                        class="btn btn-outline-primary btn-block">ver mas...</a>
+                    <p class="card-text"><small class="text-body-secondary">hace 3 dias</small>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/programador.jpg" class="card-img-top" alt="programador">
+                <div class="card-body">
+                    <h5 class="card-title">angular</h5>
+                    <p class="card-text">Angular tiene un nivel de complejidad de medio a elevado y ofrece soluciones
+                        robustas, escalables y optimizadas para lograr un estilo de codificación homogéneo y de gran
+                        modularidad. Su desarrollo se realiza por medio de TypeScript o JavaScript. En este último se
+                        ofrecen diversas herramientas adicionales al lenguaje como tipado estático o decoradores. Su
+                        nombre «Angular» proviene del concepto de paréntesis angulares (<>) que se utilizan en HTML.
+                    </p>
+                    <a href="https://blog.hubspot.es/website/que-es-angular"
+                        class="btn btn-outline-primary btn-block">ver mas...</a>
+                    <p class="card-text"><small class="text-body-secondary">hace 3 dias</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/work.jpg" class="card-img-top" alt="work">
+                <div class="card-body">
+                    <h5 class="card-title">react</h5>
+                    <p class="card-text">
+                        React es una librería para crear interfaces de usuarios con código abierto, es decir, que está a
+                        disposición de cualquier programador para que use sus recursos e incluso haga colaboraciones.
+                        Esta biblioteca fue lanzada en el año 2013, por los desarrolladores de Facebook, con base en el
+                        lenguaje JavaScript.</p>
+                    <a href="https://blog.hubspot.es/website/que-es-react" class="btn btn-outline-primary btn-block">ver
+                        mas...</a>
+                    <p class="card-text"><small class="text-body-secondary">hace 3 dias </small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <nav class="row">
+                <a href=""class="col-3 text-reset text-uppercase d-flex alingn-item-center"></a>
+                <ul class="col-3 list-unstyled">
+                    <li class="font-weight-bold text-uppercase">temas</li>
+                    <li><a href="#" class="text-reset">html5</a></li>
+                    <li><a href="#" class="text-reset">css3</a></li>
+                    <li><a href="#" class="text-reset">javascript</a></li>
+                </ul>
+                <ul class="col-3 list-unstyled">
+                    <li class="font-weight-bold text-uppercase">enlaces</li>
+                    <li><a href="#" class="text-reset">python</a></li>
+                    <li><a href="#" class="text-reset">Angular</a></li>
+                    <li><a href="#" class="text-reset">React</a></li>
+                </ul>
+                <ul class="col-3 list-unstyled">
+                    <li class="font-weight-bold text-uppercase">redes sociales</li>
+                    <li class="d-flex justify-content-between">
+                    <li><a href="#" class="text-reset"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#" class="text-reset"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#" class="text-reset"><i class="fa-brands fa-instagram"></i></a></li>
+                    </li>
+                </ul>
+
+            </nav>
         </div>
 
+    </footer>
+    <div class="container-fluid bg-light text-center p-3">
+        <p class="small">&copy; todos los derechos reservados :: YOVANNY LEMOS VALENCIA :: Medllin 2023</p>
+    </div>
 
 
-
-
-
-
-
-
-
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-            crossorigin="anonymous"></script>
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
 
 </html>

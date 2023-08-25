@@ -3,6 +3,38 @@
 *::after {
     margin: 0;
 }
+
+body {
+    background: linear-gradient(90deg,#3276E2,#D3E9f9);
+
+}
+
+.carousel-inner{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
 .d-item{
     height: 500px;
+}
+
+.tarjeta{
+    padding-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 100px;
+}
+h1{
+    font-size: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
 }
