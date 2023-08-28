@@ -40,6 +40,17 @@ h3 {
 
 }
 
+.container {
+display: flex;
+flex-wrap: wrap;
+gap: 1rem;
+}
+
+.small {
+    flex-basis: 20rem;
+    flex-grow: 999;
+    min-width: 60%ho;
+}
 
 
 
